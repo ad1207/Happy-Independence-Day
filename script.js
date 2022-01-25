@@ -1,4 +1,5 @@
-var x = document.getElementById("content")
+document.addEventListener("DOMContentLoaded", function (event) {
+    var x = document.getElementById("content")
 
 
         setTimeout(() => {
@@ -34,3 +35,4 @@ var x = document.getElementById("content")
                 }, 1000);
             }, 1000);
         }, 1000);
+})
